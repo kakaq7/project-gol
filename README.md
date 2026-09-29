@@ -1,8 +1,27 @@
-# NFD System — MVP
-Prototype website sistem pembinaan pemain muda sepakbola nasional.
+# RuangBola — Prototipe Website
 
-Buka `index.html` di browser. Tidak membutuhkan instalasi dependency.
+RuangBola adalah prototipe website untuk gerakan masyarakat non-profit yang mendukung ekosistem pembinaan sepak bola Indonesia dari usia dini sampai profesional.
 
-Modul: Dashboard Nasional, Database Pemain, Player Development Passport, Scouting, Akademi/SSB, Pelatih, Kurikulum, Talent Pathway, dan Laporan.
+## Isi prototipe
 
-Semua data adalah data demo. Untuk produksi diperlukan backend, database, autentikasi, role-based access, audit log, keamanan data pemain muda, consent wali, dan kebijakan privasi.
+- `index.html` — beranda
+- `kontribusi.html` — pilihan kontribusi masyarakat + formulir demo
+- `ekosistem.html` — peta konsep ekosistem pembinaan
+- `kebutuhan.html` — contoh kebutuhan komunitas terverifikasi
+- `belajar.html` — perpustakaan pengetahuan
+- `organisasi.html` — tata kelola dan prinsip
+- `assets/style.css` — desain responsif
+- `assets/app.js` — interaksi menu/form/filter
+
+## Menjalankan
+
+Tidak membutuhkan server atau instalasi.
+
+1. Ekstrak ZIP.
+2. Buka `index.html` di browser.
+
+Untuk versi produksi, formulir, database, autentikasi, verifikasi organisasi, sistem donasi, moderasi, perlindungan data anak, dan dashboard admin perlu dihubungkan ke backend yang aman.
+
+## Catatan desain
+
+Prototipe sengaja tidak membuat ranking pemain anak dan tidak menjadikan pemain muda sebagai komoditas. Fokusnya adalah kesempatan berkembang, kontribusi masyarakat, transparansi, dan perlindungan anak.
